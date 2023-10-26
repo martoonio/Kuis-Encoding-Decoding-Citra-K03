@@ -1,6 +1,7 @@
-plotly
-scikit-image
-pandas
-numpy
-scipy
-matplotlib
+matplotlib==3.5.1
+numpy==1.22.3
+pandas==1.4.2
+plotly==5.10.0
+scipy==1.8.1
+skimage==0.0
+streamlit==1.26.0
