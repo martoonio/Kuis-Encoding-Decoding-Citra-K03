@@ -17,7 +17,7 @@ with open('style.css') as f:
 st.title("Kuis Encoding Decoding Citra K03")
 st.markdown("Nama : Farchan Martha Adji Chandra\n\nNIM : 18221011")
 
-img = io.imread('KUIS2.jpg')
+img = mpimg.imread('KUIS2.jpg')
 # Tabel Kuantisasi didapat dari PPT
 tk = np.matrix(
 '16 11 10 16 24 40 51 61 ;\
