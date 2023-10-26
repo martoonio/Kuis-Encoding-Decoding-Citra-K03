@@ -52,6 +52,7 @@ fig.update_layout(title="FOTO SAMPLE", title_x=0.46)  # Judul grafik
 st.plotly_chart(fig, use_container_width=True)
 
 st.header("Pilih Proses :")
+st.markdown("nb : Hasil kompresi terdapat di proses decoding step terakhir")
 cb1,cb2 = st.columns(2)
 with cb1.container():
     encode = st.button("Encoding")
