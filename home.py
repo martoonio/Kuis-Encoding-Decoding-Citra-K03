@@ -6,6 +6,7 @@ import numpy as np
 import pandas as pd
 import scipy.fft as fft
 import matplotlib.image as mpimg
+from PIL import Image
 import utils
 
 st.set_page_config(layout="wide")
@@ -17,7 +18,7 @@ with open('style.css') as f:
 st.title("Kuis Encoding Decoding Citra K03")
 st.markdown("Nama : Farchan Martha Adji Chandra\n\nNIM : 18221011")
 
-img = mpimg.imread('KUIS2.jpg')
+img = Image.open('KUIS2.jpg')
 # Tabel Kuantisasi didapat dari PPT
 tk = np.matrix(
 '16 11 10 16 24 40 51 61 ;\
